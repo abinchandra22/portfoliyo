@@ -1,0 +1,67 @@
+.contact-container {
+  margin: 4rem 0;
+  position: relative;
+}
+
+.contact-container {
+  font-size: 1.5rem;
+  font-weight: 600;
+  /* margin-bottom: 3rem; */
+}
+
+.contact-content {
+  display: flex;
+  gap: 3rem;
+}
+
+@media(max-width:768px) {
+  .contact-content {
+    flex-direction: column-reverse;
+  }
+
+  .contact-container h5 {
+    font-size: 1.3rem;
+    /* margin-bottom: 2rem; */
+  }
+}
+
+/* animation */
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-600px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.contact-ani {
+  animation-name: slideInLeft;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(600px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.form-ani {
+  animation-name: slideInRight;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}

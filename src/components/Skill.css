@@ -1,0 +1,43 @@
+.skills-container {
+    margin: 4rem 0;
+    position: relative;
+}
+
+.skills-container h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3.5rem;
+}
+
+.skills-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 3rem;
+    /* justify-content: start; */
+
+
+}
+
+.skills {
+    flex: 1;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    /*..............................................................  */
+}
+
+.skills-info {
+    flex: 1;
+}
+
+.skills-container {
+    padding: 50px;
+    /* overflow: hidden; */
+
+}
+
+@media (max-width: 768px) {
+    .skills-container {
+        padding: 20px;
+    }
+}

@@ -1,0 +1,85 @@
+.header {
+  width: 100%;
+  padding: 20px 10%;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  background-color: transparent;
+  /* position: sticky ;
+top: 50; */
+}
+
+/* .hhhh{
+  position: fixed;
+  top: 100;
+  z-index: 3;
+} */
+.port {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 900
+}
+
+.links {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 100px;
+  transition: 2;
+
+}
+
+.links:hover {
+  color: #0ef;
+  transform: scale(1.1);
+
+
+}
+
+/* animation */
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-600px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.port {
+  animation-name: slideInLeft;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(600px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.links {
+  animation-name: slideInRight;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+.navbt {
+  background: linear-gradient(180deg, #ac96ff 0%, #7c5fe6 100%);
+}
