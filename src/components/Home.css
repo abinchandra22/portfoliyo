@@ -122,7 +122,7 @@ i:hover {
 .text-slide {
   display: flex;
   align-items: center;
-  animation: 10s slide infinite linear;
+  animation: 15s slide infinite linear;
 }
 
 .text-slide h3 {
@@ -419,7 +419,7 @@ body {
 .bs {
 
   background-image: linear-gradient(to right, rgb(1, 6, 57), rgb(27, 34, 74));
-  height: 670vh;
+  height: auto;
   width: 100%;
   /* border-radius: 50px; */
 
@@ -541,7 +541,8 @@ body {
     height: auto;
   }
 }
-@media(max-width:800px) {
+
+/* @media(max-width:800px) {
   .bs {
     height: 810vh;
   }
@@ -555,7 +556,7 @@ body {
   .bs {
     height: 810vh;
   }
-}
+} */
 
 
 @media(max-width:1000px) {
