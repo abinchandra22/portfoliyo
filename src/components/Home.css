@@ -522,9 +522,9 @@ body {
     padding: 10px;
   }
 
-  .bs {
-    height: 1372vh;
-  }
+  /* .bs {
+    height: 700vh;
+  } */
 
   .cards {
     margin-left: 10px;
@@ -541,6 +541,22 @@ body {
     height: auto;
   }
 }
+@media(max-width:800px) {
+  .bs {
+    height: 810vh;
+  }
+}
+@media(max-width:650px) {
+  .bs {
+    height: 750vh;
+  }
+}
+@media(max-width:800px) {
+  .bs {
+    height: 810vh;
+  }
+}
+
 
 @media(max-width:1000px) {
   .bg-img {
